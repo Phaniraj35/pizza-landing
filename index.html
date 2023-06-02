@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Raklak Pizza | Enjoy Delicious Mouth-Watering Pizzas</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="manifest" href="favicons/site.webmanifest">
+    <style>
+      * {font-family: "Dosis", sans-serif}
+
+      html {
+        scroll-behavior: smooth;
+/*        scroll-padding: 30rem;*/
+      }
+
+      #title{
+        font-family: "Amatic SC", sans-serif;
+      }
+
+      #menu {
+        text-transform: uppercase;
+      }
+
+      #main-container {
+        height: 100vh;
+        background-image:url('img_pizza.jpg');
+        background-size:cover;
+      }
+
+      @media screen and (max-width: 576px) {
+        * {
+/*          font-size: 1.5rem;*/
+        }
+
+        #main-container {
+          background-position: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Start Content -->
+    <div id="home" class="w3-content">
+      <!-- Navbar (Sits on top) -->
+      <!-- <div class="w3-top w3-bar w3-xlarge w3-black w3-opacity-min">
+        <a href="#home" class="w3-bar-item w3-button">HOME</a>
+        <a href="#menu" class="w3-bar-item w3-button">MENU</a>
+        <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+        <a href="#contact" class="w3-bar-item w3-button">CONTACT</a>
+      </div> -->
+      <!-- Header image -->
+      <div id="main-container" class="w3-display-container w3-grayscale-min">
+        <div class="w3-display-bottomleft">
+          <span class="w3-tag w3-xlarge">Open from 10am to 11pm</span>
+        </div>
+        <div class="w3-display-middle w3-center">
+          <span class="w3-text-white" id="title" style="font-size:100px;">raklak<br>TASTY PIZZA</span>
+          <p id="menu"><a href="#menu" class="w3-button w3-xxlarge w3-black">Menu&nbsp;<i class="fa-solid fa-chevron-down"></i></a>
+        </p>
+        </div>
+      </div>
+      <!-- Menu -->
+      <div id="menu" class="w3-container w3-black w3-xxlarge w3-padding-64">
+        <h1 class="w3-center w3-jumbo w3-padding-32">THE MENU</h1>
+        <div class="w3-row w3-center w3-border w3-border-dark-grey w3-round">
+          <a href="#pizza">
+            <div class="w3-third w3-padding-large w3-red"><strong>Pizza</strong></div>
+          </a>
+          <a href="#pasta">
+            <div class="w3-third w3-padding-large  w3-hover-red"><strong>Momos</strong></div>
+          </a>
+          <a href="#starters">
+            <div class="w3-third w3-padding-large  w3-hover-red"><strong>Starters</strong></div>
+          </a>
+        </div>
+        <div id="pizza" class="w3-container w3-white w3-padding-32 w3-round">
+          <h1><b>Margherita</b> <span class="w3-right w3-tag w3-dark-grey w3-round">&#8377;100</span></h1>
+          <p class="w3-text-grey">Fresh tomatoes, fresh mozzarella, fresh basil</p>
+          <hr>
+          <h1><b>Mix Veg.</b> <span class="w3-right w3-tag w3-dark-grey w3-round">&#8377;130</span></h1>
+          <p class="w3-text-grey">Delicious, Cheese burst with variety of veggies as toppings</p>
+          <hr>
+          <h1><b>Tomato</b> <span class="w3-right w3-tag w3-dark-grey w3-round">&#8377;130</span></h1>
+          <p class="w3-text-grey">Fresh Tomatoes with cheese</p>
+          <hr>
+          <h1><b>Onion</b> <span class="w3-right w3-tag w3-dark-grey w3-round">&#8377;150</span></h1>
+          <p class="w3-text-grey">Cheese-filled onion Pizza</p>
+          <hr>
+          <h1><b>Raklak Spcl.</b> 
+            <!-- <span class="w3-tag w3-red w3-round">Hot!</span> -->
+            <span class="w3-right w3-tag w3-dark-grey w3-round">&#8377;200</span>
+          </h1>
+          <p class="w3-text-grey">Fresh tomatoes, mozzarella, cheese burst</p>
+        </div>
+        <h1 id="pasta" class="w3-center w3-jumbo w3-padding-32">MOMOS</h1>
+        <div class="w3-container w3-white w3-padding-32 w3-round">
+          <h1><b>Paneer Momos</b> 
+            <!-- <span class="w3-tag w3-grey w3-round">Popular</span> -->
+            <span class="w3-right w3-tag w3-dark-grey w3-round">&#8377;80</span>
+          </h1>
+          <p class="w3-text-grey">Tasty & Healthy Paneer Momos</p>
+          <hr>
+          <h1><b>Mix Veg. Momos</b> <span class="w3-right w3-tag w3-dark-grey w3-round">&#8377;80</span></h1>
+          <p class="w3-text-grey">Momos With goodness of veggies</p>
+          <hr>
+          <h1><b>Cheese Momos</b> <span class="w3-right w3-tag w3-dark-grey w3-round">&#8377;70</span></h1>
+          <p class="w3-text-grey">Cheese Filled Delicious Momos</p>
+        </div>
+        <h1 id="starters" class="w3-center w3-jumbo w3-padding-32">STARTERS</h1>
+        <div class="w3-container w3-white w3-padding-32 w3-round">
+          <h1>
+            <b>French Fries</b> 
+            <!-- <span class="w3-tag w3-grey w3-round">Seasonal</span> -->
+            <span class="w3-right w3-tag w3-dark-grey w3-round">&#8377;100</span>
+          </h1>
+          <p class="w3-text-grey">Crunchy French Fries</p>
+          <hr>
+          <h1><b>Potato Shots</b> <span class="w3-right w3-tag w3-dark-grey w3-round">&#8377;100</span></h1>
+          <p class="w3-text-grey">Tasty Potato Shots Filled With Cheese</p>
+          <hr>
+          <h1><b>Twisters</b> <span class="w3-right w3-tag w3-dark-grey w3-round">&#8377;100</span></h1>
+          <p class="w3-text-grey">Crunchy Potato Twisters With Mouth-Watering Taste</p>
+        </div>
+      </div>
+      <!-- About -->
+      <!-- <div id="about" class="w3-container w3-red w3-grayscale w3-xlarge w3-padding-64"> -->
+       <!--  <h1 class="w3-center w3-jumbo">About</h1>
+        <p>"Raklak Pizza" was founded in Ramanathapura by two energetic and passionate brothers, Mr. Rakesh & Mr Lakhan in the year 2020. After it's grand opening "raklak pizza" has become one of the food lovers' favourite place to enjoy delicious pizzas,momos and crunchy fries etc</p> -->
+        <!-- <p></p> -->
+        <!-- <p><strong>The Chef?</strong> Mr. Italiano himself<img src="chef.jpg" style="width:100px; object-fit: cover; object-position: center;" class="w3-circle w3-right" alt="Chef"></p> -->
+        <!-- <p>We are proud of our interiors.</p> -->
+        <!-- <p class="w3-padding-16 w3-stretch">
+          <img src="img_restaurant.jpg" style="width:100%" alt="Restaurant">
+        </p>
+        <h1><b>Opening Hours</b></h1> -->
+        <!-- <div class="w3-row">
+          <p>Open all days from 10Am to 11pm</p> -->
+          <!-- <div class="w3-half">
+            <p>Monday 10.00 - 23.00</p>
+            <p>Wednesday 10.00 - 23.00</p>
+            <p>Thursday 10:00 - 23:00</p>
+          </div>
+          <div class="w3-half">
+            <p>Friday 10.00 - 23.00</p>
+            <p>Saturday 10:00 - 23:00</p>
+            <p>Sunday 10.00 - 23.00</p>
+          </div> -->
+        <!-- </div> -->
+      <!-- </div> -->
+      <!-- Contact -->
+      <!-- <img id="contact" src="rnp.jpg" class="w3-image " alt="Map" style="width:100%; background-size: cover; background-position: center;">
+      <div class="w3-container w3-blue-grey w3-grayscale-min w3-xlarge w3-padding-top-32">
+        <h1 class="w3-center w3-jumbo">Contact</h1>
+        <p>Find us at some address at some place or call us at 05050515-122330</p> -->
+        <!-- <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+        <p class="w3-xxlarge"><b>Reserve</b> a table, ask for today's special or just send us a message:</p>
+        <form action="/action_page.php" target="_blank">
+          <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+          <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="How many people" required name="People"></p>
+          <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+          <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+          <p><button class="w3-button w3-light-grey w3-block" type="submit">SEND MESSAGE</button></p>
+        </form> -->
+      <!-- </div> -->
+
+      <div class="w3-container w3-blue-grey w3-grayscale-min w3-xlarge" style="padding-top: 1rem;">
+        <!-- <h1 class="w3-jumbo w3-center">Contact</h1> -->
+
+        <div class="w3-row w3-center">
+          
+          <address>
+            <strong>
+              RakLak Pizza <br>
+            Near Pattabhirama High School<br>
+            Konanur Road, Ramanathapura-573133
+            India
+            </strong>
+          </address>
+
+          <p>Contact number: <a href="tel:+919844638144">+91 9844638144</a></p>
+
+        </div>
+      </div>
+
+      <!-- End Content -->
+    </div>
+  </body>
+</html>

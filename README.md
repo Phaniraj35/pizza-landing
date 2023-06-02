@@ -1,1 +1,1 @@
-# pizza-landing
+# Pizza Restaurant Static Landing Page
